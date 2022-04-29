@@ -65,7 +65,7 @@ table {
 }
 
 .container1 {
-  width: 25%;
+  width: 60vh;
   position: relative;
 }
 
@@ -140,6 +140,7 @@ img {
 }
 
 .container2 .quote {
+  width: 50vh;
   padding-left: 30px;
   font-weight: bold;
   display: -webkit-box;
