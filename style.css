@@ -206,6 +206,9 @@ img {
   border-style: none;
   color: white;
   background-color: #7a9265;
+  -webkit-box-shadow: 0 0 10px #434446;
+          box-shadow: 0 0 10px #434446;
+  cursor: pointer;
 }
 
 .container2 > p {
