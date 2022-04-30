@@ -147,12 +147,16 @@ img
             gap: 20px;
             input
                 border: 1px solid #E5E7EB;
+                // &:required
+                //     &::before
+                //         content: "*******";
             .password.error
                 outline: none;
                 border: 1px solid red;
                 box-shadow: $box-shadow-3;
-                input:required:before
-                    content: "*";
+    button
+        
+                
 
     button
         width: 200px;
@@ -167,7 +171,10 @@ input:focus
     border: 1px solid blue;
     box-shadow: $box-shadow-1;
     
-   
+.required::after
+    content: " *";
+    color: red;
+
 
 
 
