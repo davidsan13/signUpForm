@@ -185,6 +185,17 @@ img {
   border: 1px solid #E5E7EB;
 }
 
+.container2 form .formgrid .password.error {
+  outline: none;
+  border: 1px solid red;
+  -webkit-box-shadow: 0 0 10px #c44a45;
+          box-shadow: 0 0 10px #c44a45;
+}
+
+.container2 form .formgrid .password.error input:required:before {
+  content: "*";
+}
+
 .container2 button {
   width: 200px;
   margin-left: 30px;

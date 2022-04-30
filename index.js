@@ -1,7 +1,7 @@
 password = document.getElementById("password");
 confirmPassword = document.getElementById("confirm_password");
 
-inputPassword = document.querySelectorAll(".error");
+inputPassword = document.querySelectorAll(".password");
 button = document.querySelector("button");
 
 
@@ -13,7 +13,12 @@ function passwordCheck() {
         // document.getElementById('submit').disabled = true;
         console.log('dontmatch')
         inputPassword.forEach((item) => {
-            item.style.border = "1px solid red";
+            item.classList.add('error')
+        }) 
+    } else {
+        inputPassword.forEach((item) => {
+            item.classList.remove('error')
+            
         }) 
     }
 }

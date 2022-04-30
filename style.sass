@@ -52,6 +52,7 @@ table
 
 $box-shadow-1: 0 0 10px #719ECE;
 $box-shadow-2: 0 0 10px #434446;
+$box-shadow-3: 0 0 10px #c44a45
 
 
 @font-face
@@ -146,6 +147,13 @@ img
             gap: 20px;
             input
                 border: 1px solid #E5E7EB;
+            .password.error
+                outline: none;
+                border: 1px solid red;
+                box-shadow: $box-shadow-3;
+                input:required:before
+                    content: "*";
+
     button
         width: 200px;
         margin-left: 30px;
