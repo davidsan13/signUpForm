@@ -69,7 +69,7 @@ html {
 }
 
 .container1 {
-  width: 60vh;
+  width: 90vh;
   position: relative;
 }
 
@@ -141,11 +141,13 @@ img {
           justify-content: center;
   margin-bottom: 30rem;
   font-family: Arial, Helvetica, sans-serif;
+  gap: 1rem;
+  font-size: 1.2rem;
 }
 
 .container2 .quote {
   width: 50vh;
-  padding-left: 30px;
+  padding-left: 55px;
   font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -154,15 +156,17 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 20px;
+  gap: 2rem;
 }
 
 .container2 .quote p {
+  font-size: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
 .container2 form {
   width: 100%;
+  font-size: 1.5rem;
   -webkit-box-shadow: 0 0 10px #434446;
           box-shadow: 0 0 10px #434446;
 }
@@ -170,19 +174,21 @@ img {
 .container2 form legend {
   font-weight: bold;
   margin-bottom: 20px;
-  padding-left: 30px;
+  padding-left: 55px;
   padding-top: 10px;
 }
 
 .container2 form .formgrid {
-  width: 450px;
-  padding-left: 30px;
+  width: 45rem;
+  padding-left: 55px;
   padding-bottom: 20px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  gap: 2rem;
 }
 
 .container2 form .formgrid input {
@@ -198,9 +204,9 @@ img {
 
 .container2 button {
   width: 150px;
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-left: 55px;
+  margin-top: 10px;
+  margin-bottom: 5px;
   padding: 10px 0;
   border-radius: 5px;
   border-style: none;
@@ -212,7 +218,7 @@ img {
 }
 
 .container2 > p {
-  padding-left: 30px;
+  padding-left: 55px;
 }
 
 input:focus {
