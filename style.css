@@ -141,12 +141,12 @@ img {
           justify-content: center;
   margin-bottom: 30rem;
   font-family: Arial, Helvetica, sans-serif;
-  gap: 1rem;
+  gap: 2rem;
   font-size: 1.2rem;
 }
 
 .container2 .quote {
-  width: 50vh;
+  width: 84vh;
   padding-left: 55px;
   font-weight: bold;
   display: -webkit-box;
@@ -160,7 +160,7 @@ img {
 }
 
 .container2 .quote p {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
 
@@ -188,11 +188,15 @@ img {
       grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
-  gap: 2rem;
+  gap: rem;
 }
 
 .container2 form .formgrid input {
   border: 1px solid #E5E7EB;
+  display: block;
+  width: 300px;
+  margin: 1rem 0;
+  margin-right: 1rem;
 }
 
 .container2 form .formgrid .password.error {
@@ -221,11 +225,23 @@ img {
   padding-left: 55px;
 }
 
+.container2 > p a {
+  font-weight: bold;
+}
+
+.container2 > p a:link {
+  color: #7a9265;
+}
+
+.container2 > p a:visited {
+  color: #7a9265;
+}
+
 input:focus {
   outline: none;
   border: 1px solid blue;
-  -webkit-box-shadow: 0 0 10px #719ECE;
-          box-shadow: 0 0 10px #719ECE;
+  -webkit-box-shadow: #7a9265;
+          box-shadow: #7a9265;
 }
 
 .required::after {
